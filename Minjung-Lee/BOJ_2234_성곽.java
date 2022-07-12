@@ -15,6 +15,7 @@ public class BOJ_2234_성곽 {
     static List<Integer> roomSize;
     static List<List<Integer>> nearRoom; // 인접방
 
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
